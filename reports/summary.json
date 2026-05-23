@@ -1,0 +1,14 @@
+{
+  "best_model": "ensemble_avg_top3",
+  "best_oof_bal_acc": 0.7789624671288549,
+  "best_threshold": 0.6109999999999995,
+  "best_test_positive_rate": 0.3409090909090909,
+  "adversarial_auc": 0.7027072192513368,
+  "n_models": 36,
+  "n_ensembles": 6,
+  "optional_model_errors": {
+    "lightgbm": "OSError(\"dlopen(/Users/antonnechaev/PycharmProjects/kaggle_gamma_knife/.venv/lib/python3.13/site-packages/lightgbm/lib/lib_lightgbm.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib\\n  Referenced from: <D44045CD-B874-3A27-9A61-F131D99AACE4> /Users/antonnechaev/PycharmProjects/kaggle_gamma_knife/.venv/lib/python3.13/site-packages/lightgbm/lib/lib_lightgbm.dylib\\n  Reason: tried: '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file)\")",
+    "xgboost": "XGBoostError('\\nXGBoost Library (libxgboost.dylib) could not be loaded.\\nLikely causes:\\n  * OpenMP runtime is not installed\\n    - vcomp140.dll or libgomp-1.dll for Windows\\n    - libomp.dylib for Mac OSX\\n    - libgomp.so for Linux and other UNIX-like OSes\\n    Mac OSX users: Run `brew install libomp` to install OpenMP runtime.\\n\\n  * You are running 32-bit Python on a 64-bit OS\\n\\nError message(s): [\"dlopen(/Users/antonnechaev/PycharmProjects/kaggle_gamma_knife/.venv/lib/python3.13/site-packages/xgboost/lib/libxgboost.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib\\\\n  Referenced from: <1A0D8152-BF46-3BE0-B651-EE965C187777> /Users/antonnechaev/PycharmProjects/kaggle_gamma_knife/.venv/lib/python3.13/site-packages/xgboost/lib/libxgboost.dylib\\\\n  Reason: tried: \\'/opt/homebrew/opt/libomp/lib/libomp.dylib\\' (no such file), \\'/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib\\' (no such file), \\'/opt/homebrew/opt/libomp/lib/libomp.dylib\\' (no such file), \\'/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib\\' (no such file)\"]\\n')"
+  },
+  "catboost_errors": []
+}

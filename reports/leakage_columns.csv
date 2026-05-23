@@ -1,0 +1,12 @@
+category,column,excluded_from_features
+explicit_drop,Интракраниальная прогрессия,True
+explicit_drop,Локальный рецидив,True
+explicit_drop,Дистантные метастазы,True
+suspicious,Экстракраниальные метастазы,False
+suspicious,Локальный рецидив,True
+suspicious,Дистантные метастазы,True
+suspicious,Интракраниальная прогрессия,True
+train_only,Дистантные метастазы,True
+train_only,Интракраниальная прогрессия,True
+train_only,Локальный рецидив,True
+test_only,ID,False

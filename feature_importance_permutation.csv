@@ -1,0 +1,94 @@
+feature,importance_bal_acc_drop
+rh_procedures,0.12244003506255478
+Число РХ процедур на ГН,0.0957446808510638
+missingindicator_Дата удаления первичного очага__year,0.053589927484261723
+karnofsky,0.05064148537732094
+log1p_mgm_to_rx_days,0.046497728902701395
+Индекс Карновского,0.034185990915610844
+brain_operation_to_rx_days,0.03083911068611045
+Дата операции на ГМ__year,0.030241453502271105
+lesion_count,0.027093792334050515
+sex_bin,0.025221133158020586
+missingindicator_extracranial_metastases_bin,0.02334847398199058
+Дата 1-ой РХ__year,0.02314925492071085
+Дата рождения__year,0.02127659574468092
+extracranial_metastases_bin,0.01980237469121049
+log1p_brain_operation_to_rx_days,0.01980237469121045
+mgm_to_rx_days,0.01960315562993072
+volume_ratio_max_to_sum,0.016057056339150555
+ovgm_flag,0.015857837277870785
+lesion_sum_volume_interaction,0.014383616224400356
+age_at_rx_years,0.014383616224400356
+missingindicator_Дата удаления первичного очага__month,0.013785959040561013
+Онкологический диагноз_нмрл,0.013785959040561013
+missingindicator_log1p_mgm_to_rx_days,0.012510957048370427
+missingindicator_primary_removal_to_rx_days,0.012510957048370427
+log1p_max_volume,0.012311737987090657
+Онкологический диагноз_рп,0.01231173798709062
+ovgm_x_lesion_count,0.010837516933620192
+missingindicator_log1p_ovgm_to_rx_days,0.010638297872340496
+diagnosis_to_mgm_days,0.01063829787234046
+log1p_lesion_count,0.010638297872340422
+missingindicator_log1p_brain_operation_to_rx_days,0.010439078811060654
+missingindicator_Дата операции на ГМ__year,0.009164076818869956
+Дата удаления первичного очага__month,0.008964857757590261
+log1p_ovgm_to_rx_days,0.008964857757590261
+diagnosis_to_rx_days_missing,0.008964857757590261
+Дата операции на ГМ__month,0.008765638696310493
+activating_mutation_bin,0.007291417642840026
+Суммарный объем очагов,0.007291417642840026
+missingindicator_ovgm_to_rx_days,0.007092198581560331
+brain_operation_flag,0.007092198581560331
+missingindicator_Дата развития МГМ__month,0.007092198581560331
+ovgm_to_rx_days,0.005418758466810096
+Дата удаления первичного очага__year,0.005418758466810096
+brain_operation_x_max_volume,0.005418758466810096
+log1p_age_at_rx_days,0.005219539405530327
+missingindicator_Дата операции на ГМ__month,0.005219539405530327
+Дата рождения__month,0.00374531835205986
+sum_volume,0.00374531835205986
+Онкологический диагноз_рмж,0.0035460992907802025
+Онкологический диагноз_меланома,0.0035460992907801656
+missingindicator_diagnosis_to_rx_days,0.0035460992907801656
+missingindicator_Дата постановки онкологического диагноза / начала первичного лечения__month,0.0035460992907801283
+primary_removed_flag,0.0033468802295003965
+karnofsky_per_age,0.003346880229500323
+Дата постановки онкологического диагноза / начала первичного лечения__month,0.003346880229500323
+missingindicator_Дата развития МГМ__year,0.00187265917602993
+missingindicator_Дата проведения ОВГМ__month,0.00187265917602993
+missingindicator_brain_operation_to_rx_days,0.00187265917602993
+missingindicator_log1p_primary_removal_to_rx_days,0.0016734401147501614
+missingindicator_activating_mutation_bin,0.0016734401147501614
+Дата 1-ой РХ__month,0.0014742210534703926
+missingindicator_diagnosis_to_mgm_days,0.0014742210534703555
+Лекарственное лечение_химиотерапия,0.0012750019921906237
+Дата постановки онкологического диагноза / начала первичного лечения__year,0.0012750019921906237
+age_at_rx_years_missing,0.0
+missingindicator_mgm_to_rx_days,0.0
+max_volume_missing,0.0
+sum_volume_missing,0.0
+lesion_count_missing,0.0
+karnofsky_missing,0.0
+missingindicator_Дата постановки онкологического диагноза / начала первичного лечения__year,0.0
+Дата развития МГМ__year,0.0
+diagnosis_to_rx_days,0.0
+Дата проведения ОВГМ__year,0.0
+Дата проведения ОВГМ__month,-3.700743415417188e-17
+max_volume,-7.401486830834377e-17
+age_at_rx_days,-0.0001992190612798058
+log1p_primary_removal_to_rx_days,-0.00039843812255957456
+Число очагов в ГМ,-0.0016734401147501983
+Лекарственное лечение_таргетная терапия,-0.0018726591760299671
+missingindicator_Дата проведения ОВГМ__year,-0.0020718782373097358
+primary_removal_to_rx_days,-0.002071878237309773
+Дата развития МГМ__month,-0.0024703163598693845
+Онкологический диагноз_крр,-0.0035460992907801283
+Объем максимального очага,-0.003944537413339703
+avg_volume_per_lesion,-0.0052195394055302895
+Лекарственное лечение_без лечения,-0.005418758466810096
+missingindicator_log1p_diagnosis_to_rx_days,-0.005617977528089901
+log1p_diagnosis_to_mgm_days,-0.005617977528089901
+log1p_diagnosis_to_rx_days,-0.005617977528089901
+missingindicator_log1p_diagnosis_to_mgm_days,-0.0074906367041198685
+log1p_sum_volume,-0.007689855765399674
+lesion_max_volume_interaction,-0.01310861423220977

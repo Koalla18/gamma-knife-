@@ -1,0 +1,40 @@
+Stage3 LB Optimizer Report
+========================================
+train_shape: (872, 20)
+test_shape: (44, 18)
+target_source: Интракраниальная прогрессия
+labeled_train_rows: 680
+dropped_unlabeled_rows: 192
+selected_prob_source: reports_stage
+selected_prob_model: ensemble_avg_top3
+selected_prob_oof_bal_acc: 0.778962
+selected_prob_threshold: 0.6110
+anchor_submission: submission.csv
+anchor_reason: fallback_current_submission
+adversarial_auc: 0.722894
+high_shift_features: ['diagnosis_x_treatment', 'extracranial_x_diagnosis', 'mutations_x_treatment', 'extracranial_x_treatment', 'mgm_to_rx_days', 'treatment_cat', 'diagnosis_to_mgm_days', 'ovgm_to_rx_days']
+generated_submissions_count: 181
+selected_final_submission_source: stage3_submissions/submission_noisy_removed_frac0.03.csv
+selected_final_oof_bal_acc: 0.795526
+selected_final_threshold: 0.6040
+selected_final_pos_rate: 0.3636
+selected_final_diff_vs_anchor: 2.273%
+
+Optional library status:
+catboost: available
+lightgbm: unavailable (dlopen(/Users/antonnechaev/PycharmProjects/kaggle_gamma_knife/.venv/lib/python3.13/site-packages/lightgbm/lib/lib_lightgbm.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib
+  Referenced from: <D44045CD-B874-3A27-9A61-F131D99AACE4> /Users/antonnechaev/PycharmProjects/kaggle_gamma_knife/.venv/lib/python3.13/site-packages/lightgbm/lib/lib_lightgbm.dylib
+  Reason: tried: '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file))
+xgboost: unavailable (
+XGBoost Library (libxgboost.dylib) could not be loaded.
+Likely causes:
+  * OpenMP runtime is not installed
+    - vcomp140.dll or libgomp-1.dll for Windows
+    - libomp.dylib for Mac OSX
+    - libgomp.so for Linux and other UNIX-like OSes
+    Mac OSX users: Run `brew install libomp` to install OpenMP runtime.
+
+  * You are running 32-bit Python on a 64-bit OS
+
+Error message(s): ["dlopen(/Users/antonnechaev/PycharmProjects/kaggle_gamma_knife/.venv/lib/python3.13/site-packages/xgboost/lib/libxgboost.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib\n  Referenced from: <1A0D8152-BF46-3BE0-B651-EE965C187777> /Users/antonnechaev/PycharmProjects/kaggle_gamma_knife/.venv/lib/python3.13/site-packages/xgboost/lib/libxgboost.dylib\n  Reason: tried: '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file)"]
+)

@@ -1,0 +1,73 @@
+Current best known public score: 0.84090
+Detected anchor submission file: submission.csv
+Anchor detection reason: fallback_current_submission
+Anchor positive rate: 0.3409
+
+Top 20 recommended submissions to upload next:
+1. stage3_submissions/submission_noisy_removed_frac0.03.csv
+   method=noisy, threshold=0.6040, pos_rate=0.3636, oof_bal_acc=0.795526, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant
+2. stage3_submissions/submission_submission_blend_wavg_k4_65802595.csv
+   method=blend_search, threshold=0.6060, pos_rate=0.3636, oof_bal_acc=0.790198, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+3. stage3_submissions/submission_submission_blend_wavg_k4_91141169.csv
+   method=blend_search, threshold=0.6070, pos_rate=0.3636, oof_bal_acc=0.788071, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+4. stage3_submissions/submission_submission_blend_wavg_k4_13591155.csv
+   method=blend_search, threshold=0.6040, pos_rate=0.3636, oof_bal_acc=0.787067, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+5. stage3_submissions/submission_submission_blend_wavg_k4_55541543.csv
+   method=blend_search, threshold=0.6040, pos_rate=0.3636, oof_bal_acc=0.787067, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+6. stage3_submissions/submission_submission_blend_wavg_k3_47707578.csv
+   method=blend_search, threshold=0.6150, pos_rate=0.3636, oof_bal_acc=0.786947, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+7. stage3_submissions/submission_submission_blend_wavg_k3_20125678.csv
+   method=blend_search, threshold=0.6110, pos_rate=0.3636, oof_bal_acc=0.786947, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+8. stage3_submissions/submission_submission_blend_wavg_k4_38897492.csv
+   method=blend_search, threshold=0.6030, pos_rate=0.3636, oof_bal_acc=0.786947, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+9. stage3_submissions/submission_submission_blend_wavg_k4_54433403.csv
+   method=blend_search, threshold=0.6030, pos_rate=0.3636, oof_bal_acc=0.786828, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+10. stage3_submissions/submission_submission_blend_wavg_k4_29471950.csv
+   method=blend_search, threshold=0.6050, pos_rate=0.3636, oof_bal_acc=0.786828, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+11. stage3_submissions/submission_submission_blend_wavg_k3_89826579.csv
+   method=blend_search, threshold=0.6000, pos_rate=0.3636, oof_bal_acc=0.786063, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+12. stage3_submissions/submission_submission_blend_wavg_k4_25504010.csv
+   method=blend_search, threshold=0.5980, pos_rate=0.3636, oof_bal_acc=0.786063, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+13. stage3_submissions/submission_submission_blend_wavg_k5_73612245.csv
+   method=blend_search, threshold=0.5960, pos_rate=0.3636, oof_bal_acc=0.786063, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+14. stage3_submissions/submission_submission_blend_wavg_k3_80797533.csv
+   method=blend_search, threshold=0.6110, pos_rate=0.3636, oof_bal_acc=0.785943, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+15. stage3_submissions/submission_submission_blend_wavg_k4_97347245.csv
+   method=blend_search, threshold=0.6110, pos_rate=0.3636, oof_bal_acc=0.785943, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+16. stage3_submissions/submission_submission_blend_wavg_k2_29492967.csv
+   method=blend_search, threshold=0.6190, pos_rate=0.3636, oof_bal_acc=0.785824, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+17. stage3_submissions/submission_submission_blend_wavg_k3_18207583.csv
+   method=blend_search, threshold=0.6190, pos_rate=0.3636, oof_bal_acc=0.785824, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+18. stage3_submissions/submission_submission_blend_wavg_k3_60252784.csv
+   method=blend_search, threshold=0.6190, pos_rate=0.3636, oof_bal_acc=0.785824, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+19. stage3_submissions/submission_submission_blend_wavg_k3_79662390.csv
+   method=blend_search, threshold=0.6080, pos_rate=0.3636, oof_bal_acc=0.785824, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+20. stage3_submissions/submission_submission_blend_wavg_k3_1536289.csv
+   method=blend_search, threshold=0.6190, pos_rate=0.3636, oof_bal_acc=0.785824, changed_vs_anchor=1 (2.273%)
+   why: close high-confidence variant, ensemble diversity
+
+Upload order strategy:
+1) Closest high-confidence threshold variants (1-5% label diff).
+2) Diverse blend variants (5-12% label diff).
+3) Pseudo-label variants.
+4) Anchor-flip variants.
+5) Aggressive variants (>12% label diff).

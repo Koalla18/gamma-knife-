@@ -1,0 +1,77 @@
+Пол
+Дата рождения
+Онкологический диагноз
+Дата постановки онкологического диагноза / начала первичного лечения
+Дата удаления первичного очага
+Дата развития МГМ
+Активирующие мутации
+Дата проведения ОВГМ
+Дата операции на ГМ
+Число РХ процедур на ГН
+Дата 1-ой РХ
+Индекс Карновского
+Число очагов в ГМ
+Суммарный объем очагов
+Объем максимального очага
+Экстракраниальные метастазы
+Лекарственное лечение
+primary_removed_flag
+ovgm_flag
+brain_operation_flag
+age_at_rx_days
+age_at_rx_years
+diagnosis_to_mgm_days
+mgm_to_rx_days
+diagnosis_to_rx_days
+primary_removal_to_rx_days
+ovgm_to_rx_days
+brain_operation_to_rx_days
+lesion_count
+sum_volume
+max_volume
+karnovsky
+sex_bin
+mutations_bin
+extracranial_bin
+volume_ratio_max_to_sum
+avg_volume_per_lesion
+lesion_volume_product
+max_lesion_product
+karnovsky_age_ratio
+karnovsky_deficit
+ovgm_x_lesions
+operation_x_max_volume
+mutations_x_treatment
+diagnosis_x_treatment
+age_at_rx_days_abs
+log1p_age_at_rx_days_pos
+age_at_rx_days_missing
+diagnosis_to_mgm_days_abs
+log1p_diagnosis_to_mgm_days_pos
+diagnosis_to_mgm_days_missing
+mgm_to_rx_days_abs
+log1p_mgm_to_rx_days_pos
+mgm_to_rx_days_missing
+diagnosis_to_rx_days_abs
+log1p_diagnosis_to_rx_days_pos
+diagnosis_to_rx_days_missing
+primary_removal_to_rx_days_abs
+log1p_primary_removal_to_rx_days_pos
+primary_removal_to_rx_days_missing
+ovgm_to_rx_days_abs
+log1p_ovgm_to_rx_days_pos
+ovgm_to_rx_days_missing
+brain_operation_to_rx_days_abs
+log1p_brain_operation_to_rx_days_pos
+brain_operation_to_rx_days_missing
+log1p_lesion_count
+lesion_count_missing
+log1p_sum_volume
+sum_volume_missing
+log1p_max_volume
+max_volume_missing
+log1p_karnovsky
+karnovsky_missing
+high_lesion_count_flag
+high_volume_flag
+high_max_volume_flag

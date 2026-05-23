@@ -1,0 +1,14 @@
+{
+  "current_best_public_score": 0.8409,
+  "anchor_submission": "submission.csv",
+  "anchor_reason": "fallback_current_submission",
+  "selected_probability_source": "reports_stage",
+  "selected_probability_model": "ensemble_avg_top3",
+  "selected_probability_oof_bal_acc": 0.7789624671288549,
+  "selected_probability_threshold": 0.6109999999999995,
+  "selected_final_submission_source": "stage3_submissions/submission_noisy_removed_frac0.03.csv",
+  "selected_final_oof_bal_acc": 0.7955255313304372,
+  "selected_final_threshold": 0.6039999999999995,
+  "selected_final_test_pos_rate": 0.36363636363636365,
+  "selected_final_diff_vs_anchor": 0.022727272727272728
+}
